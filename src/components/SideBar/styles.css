@@ -1,0 +1,44 @@
+.sidebar {
+    height: 30vh;
+    background-color: #474141;
+    width: 11rem;
+    display: flex;
+    flex-direction: column;
+    
+    box-shadow: 10px 0px 10px -10px rgba(0, 0, 0, 0.75);
+    border-bottom-right-radius: 20%;
+  }
+  
+  .sidebar > ul {
+    width: 100%;
+    padding: 7rem 0px;
+    height: 100%;
+  }
+  
+  .sidebar > ul > li {
+    display: flex;
+    width: 100%;
+    margin-bottom: 2rem;
+    position: relative;
+    height: 15%;
+  }
+  
+  .sidebar svg {
+    color: #ffffff; 
+    font-size: 1.5rem;
+    margin-right: 1rem;
+
+  }
+  
+  .sidebar a {
+    color: #2cc9bc; 
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    
+  }
+  
+  .sidebar a.active {
+    color: #c92b2b; 
+  }
+  
